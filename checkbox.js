@@ -1,14 +1,14 @@
 'use strict';
-var React = require('react-native');
-var {
-    StyleSheetRegistry,
-    StyleSheet,
-    Image,
-    Text,
-    View,
-    TouchableHighlight,
-    TouchableWithoutFeedback
-} = React;
+import React from 'react';
+import {
+  StyleSheetRegistry,
+  StyleSheet,
+  Image,
+  Text,
+  View,
+  TouchableHighlight,
+  TouchableWithoutFeedback
+} from 'react-native';
 
 var flattenStyle = React.StyleSheet.flatten;
 var PropTypes = React.PropTypes;
