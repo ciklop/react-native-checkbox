@@ -10,7 +10,7 @@ import {
   TouchableWithoutFeedback
 } from 'react-native';
 
-var flattenStyle = React.StyleSheet.flatten;
+var flattenStyle = StyleSheet.flatten;
 var PropTypes = React.PropTypes;
 
 var CheckBox = React.createClass({
@@ -18,11 +18,11 @@ var CheckBox = React.createClass({
     label: PropTypes.string,
     checked: PropTypes.bool.isRequired,
     onChange: PropTypes.func,
-    checkImage: React.Image.propTypes.source,
-    style: React.View.propTypes.style,
-    labelStyle: React.Text.propTypes.style,
-    labelContainerStyle: React.View.propTypes.style,
-    containerStyle: React.View.propTypes.style,
+    checkImage: Image.propTypes.source,
+    style: View.propTypes.style,
+    labelStyle: Text.propTypes.style,
+    labelContainerStyle: View.propTypes.style,
+    containerStyle: View.propTypes.style,
     labelBefore: PropTypes.bool,
     children: React.PropTypes.element,
     highlight: PropTypes.bool
